@@ -84,10 +84,10 @@ function App() {
       <main>
         <div className="title">
           <h2>No more tours</h2>
+          <button className="btn" onClick={getTours}>
+            Refresh
+          </button>
         </div>
-        <button className="btn" onClick={getTours}>
-          Refresh
-        </button>
       </main>
     );
   }
